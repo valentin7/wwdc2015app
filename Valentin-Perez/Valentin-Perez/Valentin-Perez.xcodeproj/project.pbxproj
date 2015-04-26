@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60D9E958A2C211103FF4F0D /* libPods-Valentin-Perez.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6D1ECB07706277EA3BC3F4 /* libPods-Valentin-Perez.a */; };
+		A7A3C9F61AED720400D63A79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A3C9F51AED720400D63A79 /* Images.xcassets */; };
+		A7A3C9F91AED720400D63A79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A3C9F71AED720400D63A79 /* LaunchScreen.xib */; };
+		A7A3CA051AED720400D63A79 /* Valentin_PerezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA041AED720400D63A79 /* Valentin_PerezTests.swift */; };
+		A7A3CA1A1AED724E00D63A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA0E1AED724E00D63A79 /* AppDelegate.swift */; };
+		A7A3CA1B1AED724E00D63A79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA0F1AED724E00D63A79 /* ViewController.swift */; };
+		A7A3CA1C1AED724E00D63A79 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA101AED724E00D63A79 /* ProjectTableViewCell.swift */; };
+		A7A3CA1D1AED724E00D63A79 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA111AED724E00D63A79 /* IntroViewController.swift */; };
+		A7A3CA1E1AED724E00D63A79 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA121AED724E00D63A79 /* ProjectsViewController.swift */; };
+		A7A3CA201AED724E00D63A79 /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA151AED724E00D63A79 /* MenuTransitionManager.swift */; };
+		A7A3CA211AED724E00D63A79 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA161AED724E00D63A79 /* MoreInfoViewController.swift */; };
+		A7A3CA221AED724E00D63A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA171AED724E00D63A79 /* Main.storyboard */; };
+		A7A3CA231AED724E00D63A79 /* ResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA181AED724E00D63A79 /* ResumeViewController.swift */; };
+		A7A3CA241AED724E00D63A79 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3CA191AED724E00D63A79 /* WebsiteViewController.swift */; };
+		A7A3CA331AED726100D63A79 /* connect.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA261AED726100D63A79 /* connect.png */; };
+		A7A3CA341AED726100D63A79 /* endline.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA271AED726100D63A79 /* endline.png */; };
+		A7A3CA351AED726100D63A79 /* tensor-disp.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA281AED726100D63A79 /* tensor-disp.png */; };
+		A7A3CA361AED726100D63A79 /* evil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA291AED726100D63A79 /* evil.jpg */; };
+		A7A3CA371AED726100D63A79 /* gm.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA2A1AED726100D63A79 /* gm.png */; };
+		A7A3CA381AED726100D63A79 /* guru.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA2B1AED726100D63A79 /* guru.png */; };
+		A7A3CA391AED726100D63A79 /* join.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA2C1AED726100D63A79 /* join.png */; };
+		A7A3CA3A1AED726100D63A79 /* laundry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA2D1AED726100D63A79 /* laundry.jpeg */; };
+		A7A3CA3B1AED726100D63A79 /* laundry.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA2E1AED726100D63A79 /* laundry.png */; };
+		A7A3CA3C1AED726100D63A79 /* magnet.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA2F1AED726100D63A79 /* magnet.png */; };
+		A7A3CA3D1AED726100D63A79 /* NMH.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA301AED726100D63A79 /* NMH.png */; };
+		A7A3CA3E1AED726100D63A79 /* valentinRound.png in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA311AED726100D63A79 /* valentinRound.png */; };
+		A7A3CA3F1AED726100D63A79 /* valentin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7A3CA321AED726100D63A79 /* valentin.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7A3C9FF1AED720400D63A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A3C9E11AED720400D63A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A3C9E81AED720400D63A79;
+			remoteInfo = "Valentin-Perez";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A6423307F491CA5B36D2E26 /* Pods-Valentin-Perez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Valentin-Perez.release.xcconfig"; path = "Pods/Target Support Files/Pods-Valentin-Perez/Pods-Valentin-Perez.release.xcconfig"; sourceTree = "<group>"; };
+		75FA661EF5DD0AFACEF9B819 /* Pods-Valentin-Perez.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Valentin-Perez.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Valentin-Perez/Pods-Valentin-Perez.debug.xcconfig"; sourceTree = "<group>"; };
+		8B6D1ECB07706277EA3BC3F4 /* libPods-Valentin-Perez.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Valentin-Perez.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A3C9E91AED720400D63A79 /* Valentin-Perez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Valentin-Perez.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A3C9ED1AED720400D63A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A3C9F51AED720400D63A79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7A3C9F81AED720400D63A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7A3C9FE1AED720400D63A79 /* Valentin-PerezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Valentin-PerezTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A3CA031AED720400D63A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A3CA041AED720400D63A79 /* Valentin_PerezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valentin_PerezTests.swift; sourceTree = "<group>"; };
+		A7A3CA0E1AED724E00D63A79 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7A3CA0F1AED724E00D63A79 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7A3CA101AED724E00D63A79 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		A7A3CA111AED724E00D63A79 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		A7A3CA121AED724E00D63A79 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		A7A3CA151AED724E00D63A79 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
+		A7A3CA161AED724E00D63A79 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		A7A3CA171AED724E00D63A79 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A7A3CA181AED724E00D63A79 /* ResumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeViewController.swift; sourceTree = "<group>"; };
+		A7A3CA191AED724E00D63A79 /* WebsiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		A7A3CA251AED725600D63A79 /* Valentin-Perez-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Valentin-Perez-Bridging-Header.h"; sourceTree = "<group>"; };
+		A7A3CA261AED726100D63A79 /* connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect.png; sourceTree = "<group>"; };
+		A7A3CA271AED726100D63A79 /* endline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = endline.png; sourceTree = "<group>"; };
+		A7A3CA281AED726100D63A79 /* tensor-disp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tensor-disp.png"; sourceTree = "<group>"; };
+		A7A3CA291AED726100D63A79 /* evil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evil.jpg; sourceTree = "<group>"; };
+		A7A3CA2A1AED726100D63A79 /* gm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gm.png; sourceTree = "<group>"; };
+		A7A3CA2B1AED726100D63A79 /* guru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guru.png; sourceTree = "<group>"; };
+		A7A3CA2C1AED726100D63A79 /* join.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = join.png; sourceTree = "<group>"; };
+		A7A3CA2D1AED726100D63A79 /* laundry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laundry.jpeg; sourceTree = "<group>"; };
+		A7A3CA2E1AED726100D63A79 /* laundry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = laundry.png; sourceTree = "<group>"; };
+		A7A3CA2F1AED726100D63A79 /* magnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnet.png; sourceTree = "<group>"; };
+		A7A3CA301AED726100D63A79 /* NMH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NMH.png; sourceTree = "<group>"; };
+		A7A3CA311AED726100D63A79 /* valentinRound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = valentinRound.png; sourceTree = "<group>"; };
+		A7A3CA321AED726100D63A79 /* valentin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valentin.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A3C9E61AED720400D63A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60D9E958A2C211103FF4F0D /* libPods-Valentin-Perez.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A3C9FB1AED720400D63A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A3C9E01AED720400D63A79 = {
+			isa = PBXGroup;
+			children = (
+				A7A3C9EB1AED720400D63A79 /* Valentin-Perez */,
+				A7A3CA011AED720400D63A79 /* Valentin-PerezTests */,
+				A7A3C9EA1AED720400D63A79 /* Products */,
+				FA0DB326E983F3AAEB3258DC /* Pods */,
+				C3AFA25C9940FF7338E479E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A3C9EA1AED720400D63A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3C9E91AED720400D63A79 /* Valentin-Perez.app */,
+				A7A3C9FE1AED720400D63A79 /* Valentin-PerezTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A3C9EB1AED720400D63A79 /* Valentin-Perez */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3CA251AED725600D63A79 /* Valentin-Perez-Bridging-Header.h */,
+				A7A3CA0E1AED724E00D63A79 /* AppDelegate.swift */,
+				A7A3CA0F1AED724E00D63A79 /* ViewController.swift */,
+				A7A3CA101AED724E00D63A79 /* ProjectTableViewCell.swift */,
+				A7A3CA111AED724E00D63A79 /* IntroViewController.swift */,
+				A7A3CA121AED724E00D63A79 /* ProjectsViewController.swift */,
+				A7A3CA151AED724E00D63A79 /* MenuTransitionManager.swift */,
+				A7A3CA161AED724E00D63A79 /* MoreInfoViewController.swift */,
+				A7A3CA171AED724E00D63A79 /* Main.storyboard */,
+				A7A3CA181AED724E00D63A79 /* ResumeViewController.swift */,
+				A7A3CA191AED724E00D63A79 /* WebsiteViewController.swift */,
+				A7A3C9F51AED720400D63A79 /* Images.xcassets */,
+				A7A3C9F71AED720400D63A79 /* LaunchScreen.xib */,
+				A7A3C9EC1AED720400D63A79 /* Supporting Files */,
+			);
+			path = "Valentin-Perez";
+			sourceTree = "<group>";
+		};
+		A7A3C9EC1AED720400D63A79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3CA261AED726100D63A79 /* connect.png */,
+				A7A3CA271AED726100D63A79 /* endline.png */,
+				A7A3CA281AED726100D63A79 /* tensor-disp.png */,
+				A7A3CA291AED726100D63A79 /* evil.jpg */,
+				A7A3CA2A1AED726100D63A79 /* gm.png */,
+				A7A3CA2B1AED726100D63A79 /* guru.png */,
+				A7A3CA2C1AED726100D63A79 /* join.png */,
+				A7A3CA2D1AED726100D63A79 /* laundry.jpeg */,
+				A7A3CA2E1AED726100D63A79 /* laundry.png */,
+				A7A3CA2F1AED726100D63A79 /* magnet.png */,
+				A7A3CA301AED726100D63A79 /* NMH.png */,
+				A7A3CA311AED726100D63A79 /* valentinRound.png */,
+				A7A3CA321AED726100D63A79 /* valentin.jpg */,
+				A7A3C9ED1AED720400D63A79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7A3CA011AED720400D63A79 /* Valentin-PerezTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3CA041AED720400D63A79 /* Valentin_PerezTests.swift */,
+				A7A3CA021AED720400D63A79 /* Supporting Files */,
+			);
+			path = "Valentin-PerezTests";
+			sourceTree = "<group>";
+		};
+		A7A3CA021AED720400D63A79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A3CA031AED720400D63A79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3AFA25C9940FF7338E479E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B6D1ECB07706277EA3BC3F4 /* libPods-Valentin-Perez.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0DB326E983F3AAEB3258DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75FA661EF5DD0AFACEF9B819 /* Pods-Valentin-Perez.debug.xcconfig */,
+				4A6423307F491CA5B36D2E26 /* Pods-Valentin-Perez.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A3C9E81AED720400D63A79 /* Valentin-Perez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A3CA081AED720400D63A79 /* Build configuration list for PBXNativeTarget "Valentin-Perez" */;
+			buildPhases = (
+				3B6E3381008D6542F44068DE /* Check Pods Manifest.lock */,
+				A7A3C9E51AED720400D63A79 /* Sources */,
+				A7A3C9E61AED720400D63A79 /* Frameworks */,
+				A7A3C9E71AED720400D63A79 /* Resources */,
+				1F39637F5C47431FAF18C6AE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Valentin-Perez";
+			productName = "Valentin-Perez";
+			productReference = A7A3C9E91AED720400D63A79 /* Valentin-Perez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7A3C9FD1AED720400D63A79 /* Valentin-PerezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A3CA0B1AED720400D63A79 /* Build configuration list for PBXNativeTarget "Valentin-PerezTests" */;
+			buildPhases = (
+				A7A3C9FA1AED720400D63A79 /* Sources */,
+				A7A3C9FB1AED720400D63A79 /* Frameworks */,
+				A7A3C9FC1AED720400D63A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7A3CA001AED720400D63A79 /* PBXTargetDependency */,
+			);
+			name = "Valentin-PerezTests";
+			productName = "Valentin-PerezTests";
+			productReference = A7A3C9FE1AED720400D63A79 /* Valentin-PerezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A3C9E11AED720400D63A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Valentin Perez";
+				TargetAttributes = {
+					A7A3C9E81AED720400D63A79 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A7A3C9FD1AED720400D63A79 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A7A3C9E81AED720400D63A79;
+					};
+				};
+			};
+			buildConfigurationList = A7A3C9E41AED720400D63A79 /* Build configuration list for PBXProject "Valentin-Perez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A3C9E01AED720400D63A79;
+			productRefGroup = A7A3C9EA1AED720400D63A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A3C9E81AED720400D63A79 /* Valentin-Perez */,
+				A7A3C9FD1AED720400D63A79 /* Valentin-PerezTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A3C9E71AED720400D63A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A3CA331AED726100D63A79 /* connect.png in Resources */,
+				A7A3CA3B1AED726100D63A79 /* laundry.png in Resources */,
+				A7A3CA391AED726100D63A79 /* join.png in Resources */,
+				A7A3CA221AED724E00D63A79 /* Main.storyboard in Resources */,
+				A7A3CA381AED726100D63A79 /* guru.png in Resources */,
+				A7A3CA3C1AED726100D63A79 /* magnet.png in Resources */,
+				A7A3CA351AED726100D63A79 /* tensor-disp.png in Resources */,
+				A7A3CA341AED726100D63A79 /* endline.png in Resources */,
+				A7A3CA361AED726100D63A79 /* evil.jpg in Resources */,
+				A7A3CA3D1AED726100D63A79 /* NMH.png in Resources */,
+				A7A3CA371AED726100D63A79 /* gm.png in Resources */,
+				A7A3CA3E1AED726100D63A79 /* valentinRound.png in Resources */,
+				A7A3CA3F1AED726100D63A79 /* valentin.jpg in Resources */,
+				A7A3C9F91AED720400D63A79 /* LaunchScreen.xib in Resources */,
+				A7A3C9F61AED720400D63A79 /* Images.xcassets in Resources */,
+				A7A3CA3A1AED726100D63A79 /* laundry.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A3C9FC1AED720400D63A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F39637F5C47431FAF18C6AE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Valentin-Perez/Pods-Valentin-Perez-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B6E3381008D6542F44068DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A3C9E51AED720400D63A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A3CA241AED724E00D63A79 /* WebsiteViewController.swift in Sources */,
+				A7A3CA231AED724E00D63A79 /* ResumeViewController.swift in Sources */,
+				A7A3CA1B1AED724E00D63A79 /* ViewController.swift in Sources */,
+				A7A3CA1E1AED724E00D63A79 /* ProjectsViewController.swift in Sources */,
+				A7A3CA1C1AED724E00D63A79 /* ProjectTableViewCell.swift in Sources */,
+				A7A3CA1A1AED724E00D63A79 /* AppDelegate.swift in Sources */,
+				A7A3CA1D1AED724E00D63A79 /* IntroViewController.swift in Sources */,
+				A7A3CA211AED724E00D63A79 /* MoreInfoViewController.swift in Sources */,
+				A7A3CA201AED724E00D63A79 /* MenuTransitionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A3C9FA1AED720400D63A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A3CA051AED720400D63A79 /* Valentin_PerezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7A3CA001AED720400D63A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A3C9E81AED720400D63A79 /* Valentin-Perez */;
+			targetProxy = A7A3C9FF1AED720400D63A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7A3C9F71AED720400D63A79 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A3C9F81AED720400D63A79 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A3CA061AED720400D63A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7A3CA071AED720400D63A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A3CA091AED720400D63A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75FA661EF5DD0AFACEF9B819 /* Pods-Valentin-Perez.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Valentin-Perez/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Valentin-Perez/Valentin-Perez-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7A3CA0A1AED720400D63A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6423307F491CA5B36D2E26 /* Pods-Valentin-Perez.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Valentin-Perez/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Valentin-Perez/Valentin-Perez-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A7A3CA0C1AED720400D63A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Valentin-PerezTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valentin-Perez.app/Valentin-Perez";
+			};
+			name = Debug;
+		};
+		A7A3CA0D1AED720400D63A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Valentin-PerezTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valentin-Perez.app/Valentin-Perez";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A3C9E41AED720400D63A79 /* Build configuration list for PBXProject "Valentin-Perez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A3CA061AED720400D63A79 /* Debug */,
+				A7A3CA071AED720400D63A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A3CA081AED720400D63A79 /* Build configuration list for PBXNativeTarget "Valentin-Perez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A3CA091AED720400D63A79 /* Debug */,
+				A7A3CA0A1AED720400D63A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A3CA0B1AED720400D63A79 /* Build configuration list for PBXNativeTarget "Valentin-PerezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A3CA0C1AED720400D63A79 /* Debug */,
+				A7A3CA0D1AED720400D63A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A3C9E11AED720400D63A79 /* Project object */;
+}

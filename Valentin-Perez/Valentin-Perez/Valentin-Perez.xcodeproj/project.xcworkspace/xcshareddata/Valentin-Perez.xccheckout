@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA88C9A6-FF8A-435E-BA27-4DE776462369</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Valentin-Perez</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>15109231424BFEB0F4DB247B9185D127DB561CE4</key>
+		<string>https://github.com/valentin7/wwdc2015app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Valentin-Perez/Valentin-Perez/Valentin-Perez.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>15109231424BFEB0F4DB247B9185D127DB561CE4</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/valentin7/wwdc2015app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>15109231424BFEB0F4DB247B9185D127DB561CE4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>15109231424BFEB0F4DB247B9185D127DB561CE4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wwdc2015app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
