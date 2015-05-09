@@ -76,7 +76,7 @@ class ViewController: UIViewController, TTSliddingPageDelegate, TTSlidingPagesDa
         }
         
         println("name is " + vcName)
-        let vc = self.storyboard?.instantiateViewControllerWithIdentifier(vcName) as UIViewController
+        let vc = self.storyboard?.instantiateViewControllerWithIdentifier(vcName) as! UIViewController
 
         return TTSlidingPage(contentViewController: vc);
     }

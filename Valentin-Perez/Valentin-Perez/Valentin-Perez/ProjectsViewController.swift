@@ -45,7 +45,7 @@ class ProjectsViewController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        var cell : ProjectTableViewCell = self.tableView.dequeueReusableCellWithIdentifier("projectCell") as ProjectTableViewCell
+        var cell : ProjectTableViewCell = self.tableView.dequeueReusableCellWithIdentifier("projectCell") as! ProjectTableViewCell
         //cell.imageView?.image = UIImage(named: self.imageNames[indexPath.row])
 
         cell.nameLabel?.text = self.projectNames[indexPath.row]
@@ -72,7 +72,7 @@ class ProjectsViewController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        let vc : MoreInfoViewController = self.storyboard?.instantiateViewControllerWithIdentifier("moreInfoController") as MoreInfoViewController
+        let vc : MoreInfoViewController = self.storyboard?.instantiateViewControllerWithIdentifier("moreInfoController") as! MoreInfoViewController
         vc.descriptionString = moreDescriptions[indexPath.row]
         vc.buttonTitle = buttonTitles[indexPath.row]
         vc.actionURL = actionURLs[indexPath.row]

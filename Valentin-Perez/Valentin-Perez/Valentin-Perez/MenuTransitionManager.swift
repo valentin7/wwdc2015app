@@ -33,7 +33,7 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
         
         // assign references to our menu view controller and the 'bottom' view controller from the tuple
         // remember that our moreInfoViewController will alternate between the from and to view controller depending if we're presenting or dismissing
-        let moreInfoViewController = !self.presenting ? screens.from as MoreInfoViewController : screens.to as MoreInfoViewController
+        let moreInfoViewController = !self.presenting ? screens.from as! MoreInfoViewController : screens.to as! MoreInfoViewController
         let bottomViewController = !self.presenting ? screens.to as UIViewController : screens.from as UIViewController
         
         let menuView = moreInfoViewController.view
